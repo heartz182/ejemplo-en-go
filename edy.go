@@ -9,3 +9,6 @@ func hola(s string) string {
 func main() {
 	fmt.Println(hola("Edy"))
 }
+
+/*  Ejemplo de una función en Go utilizando un argumento
+string */
