@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func mai() {
 	// Asignamos un handler anónimo a la ruta raíz ("/").
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		// Este handler escribe un mensaje simple en la respuesta HTTP.
