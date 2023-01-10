@@ -9,9 +9,11 @@ import (
 
 // holamundo es un handler que se encarga de procesar las solicitudes HTTP
 // que se reciben en la ruta "/" y de preparar una respuesta adecuada.
+/*
 func holamundo(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<h1>Hola Mundo :3</>")
 }
+*/
 
 // prueba es un handler que se encarga de procesar las solicitudes HTTP
 // que se reciben en la ruta "/prueba" y de preparar una respuesta adecuada.
